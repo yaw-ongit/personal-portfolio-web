@@ -27,8 +27,9 @@ export const portfolio = {
       subtitle: 'Mobile App for Elderly Care Services',
       description: 'A user-centered mobile application designed to connect elderly individuals with care services. Built with focus on accessibility and intuitive design. Utilized Figma for UI/UX design and user research methodologies.',
       technologies: ['Figma', 'User-Centered Design', 'Mobile Design', 'User Research'],
-      image: 'healthcare technology elderly care',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logoportis-fGS1t3f0qMC2u48F1AJ1gseb98oFsy.png',
       year: 2024,
+      useDirectImage: true,
     },
     {
       id: 2,
@@ -36,8 +37,9 @@ export const portfolio = {
       subtitle: 'Warehouse Management System',
       description: 'A comprehensive warehouse management system designed to streamline inventory tracking and logistics operations. Implemented with modern web technologies and database design principles.',
       technologies: ['Web Development', 'Database Design', 'System Architecture', 'UML'],
-      image: 'warehouse management logistics',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/GUDANGGO-GstQnzdy2hsjBgRF32N0TVtfvemGL3.png',
       year: 2024,
+      useDirectImage: true,
     },
     {
       id: 3,
@@ -45,8 +47,9 @@ export const portfolio = {
       subtitle: 'Adaptive Habit Analyst',
       description: 'An intelligent habit tracking and analytics application that helps users understand and improve their daily routines. Features data visualization and personalized insights.',
       technologies: ['Web Application', 'Data Visualization', 'Analytics', 'User Interface'],
-      image: 'productivity dashboard analytics',
+      image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AHA-eSatt7jpYe5CMvnsPQttxfcrYMA980.jpeg',
       year: 2023,
+      useDirectImage: true,
     },
   ],
 
@@ -57,7 +60,7 @@ export const portfolio = {
       conference: 'JICT (Journal of Information and Communication Technology)',
       date: 'June 2025',
       description: 'Research on network security vulnerabilities and analysis techniques using industry-standard tools.',
-      link: '#',
+      link: 'https://jict.telkomuniversity.ac.id',
     },
   ],
 

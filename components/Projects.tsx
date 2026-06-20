@@ -22,7 +22,12 @@ export function Projects() {
       const loadedImages: Record<number, string> = {}
       
       for (const project of portfolio.projects) {
-        loadedImages[project.id] = await getUnsplashImage(project.image)
+        // Check if project has direct image URL or needs Unsplash
+        if ((project as any).useDirectImage) {
+          loadedImages[project.id] = project.image
+        } else {
+          loadedImages[project.id] = await getUnsplashImage(project.image)
+        }
       }
       
       setImages(loadedImages)
